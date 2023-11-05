@@ -5,15 +5,17 @@ from world import World
 import pygame
 from pygame.locals import *
 import argparse
-import random
+# import random
 
 
 """
 Parameters for Wa-Tor
 Width of Wa-Tor
 Height of Wa-tor
+Zoom Factor
 Fish Color
 Shark Color
+Ocean Color
 Fish Breeding Time
 Shark Breeing Time
 Shark Starting Energy
@@ -48,13 +50,7 @@ def get_args():
     return args
 
 
-def init_wator_map(dimensions):
-    """
-    # Using list comprehension
-        rows = 50
-        cols = 100
-        array_2d = [[0 for _ in range(cols)] for _ in range(rows)]
-    """
+
 
 
 def game_loop(args):
